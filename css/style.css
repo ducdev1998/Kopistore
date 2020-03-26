@@ -1,0 +1,96 @@
+html{
+    box-sizing:border-box;
+}
+
+body{
+    margin: 0;  
+}
+.main{
+    width: 3.15in;
+}
+
+    .form{
+        width: 35mm;
+        height: 0.95in;
+        /*border: black 1px solid;*/
+    }
+
+        .form1, .form3, .form5, .form7{
+            float: left;
+        }
+
+        .form2, .form4, .form6, .form8{
+            float: left;
+	margin-left: 5mm;
+        }
+
+        .form3, .form4, .form5, .form6 ,.form7, .form8{
+            margin-top: 18px;
+        }
+
+    span{
+        display: block;
+        text-align: center;
+    }
+
+    .storename{
+        margin-top: 3px;
+        font-size: 11px;
+    }
+
+    .code{
+        font-size: 32px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .pricename{
+        font-size: 12px;
+    }
+
+    .price{
+        margin-top: 4px;
+        font-size: 12px;
+    }
+
+        .storename, .pricename, .price{
+            font-weight: bold;
+        }      
+
+        .wrapper{
+            font-family: 'SF UI Text Regular';
+            width: 250px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        input{
+            width: 216px;
+            padding: 15px;
+            margin-top: 5px;
+        }
+
+        input[type=submit]{
+            text-align: center;
+            display: inline-block;
+            width: 250px;
+        }
+
+        label{
+            display: block;
+            margin-top: 10px;
+            float: left;
+        }
+
+    h2{
+        display: block;
+        padding-top: 50px;
+    }
+
+    form{
+        padding-top: 20px;
+        margin: 0 auto;
+        width: 250px;
+    }
+
+/* Design by Lingzshin */
