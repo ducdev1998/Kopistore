@@ -25,21 +25,32 @@
             font-family: 'Free 3 of 9';
         }
 
+        body{
+            background-image: url("background.png");
+            height: 500px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
     </style>
 
 </head>
 <body>
 
+    <div class="mainbody">
+
     <div class="wrapper">
+
+        <h3>KOPI STORE</h3>
 
         <h2>IN MÃ SẢN PHẨM</h2>
 
         <form action="print.php" method="post">
 
-        <label for="ProductName">Nhập Tên sản phẩm: </label>
+        <label for="ProductName">Tên sản phẩm: </label>
         <input type="text" name="ProductName"/>
 
-        <label for="QRCode">Nhập Mã sản phẩm: </label>
+        <label for="QRCode">Mã sản phẩm: </label>
         <input type="text" name="QRCode"/>
 
         <label for="Price">Giá: </label>
@@ -47,6 +58,15 @@
         <br>
         <input type="submit" value="Xem form in">
         </form>
+    </div>
+
+    <div class="footer">
+    
+        <a href="https://www.facebook.com/lingzshin" target="_blank" ><b>@lingzshin</b></a>
+    
+    </div>
+
+            
     </div>
 
     <script>
