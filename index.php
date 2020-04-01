@@ -51,7 +51,7 @@
         <input type="text" name="ProductName"/>
 
         <label for="QRCode">Mã sản phẩm: </label>
-        <input type="text" name="QRCode"/>
+        <input type="text" name="QRCode" onkeyup="this.value = this.value.toUpperCase();" />
 
         <label for="Price">Giá: </label>
         <input type="number" name="Price" value="150000"/>
